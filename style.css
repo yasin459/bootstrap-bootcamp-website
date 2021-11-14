@@ -3,3 +3,11 @@
     width: 50%;
   }
 }
+.logo{
+  max-height: 40px;
+}
+body::before{
+  display: block;
+  content: '';
+  height: 60px;
+}
